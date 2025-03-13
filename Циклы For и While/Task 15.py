@@ -10,3 +10,4 @@ def display_counter():
 
 # Выполнить цикл
 display_counter()
+
