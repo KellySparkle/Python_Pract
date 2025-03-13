@@ -11,3 +11,4 @@ n = int(input("Введите число N: "))
 
 # Выполнить цикл
 display_counter(n)
+
