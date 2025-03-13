@@ -56,3 +56,4 @@ years_data = calculate_yearly_data(initial_area, initial_yield, area_growth, yie
 print(f"а) Урожайность превысит 22 центнера с гектара в {getattr(calculate_yearly_data, 'yield_exceeded', 'не определено')} году.")
 print(f"б) Площадь участка станет больше 120 гектаров в {getattr(calculate_yearly_data, 'area_exceeded', 'не определено')} году.")
 print(f"в) Общий урожай превысит 800 центнеров в {getattr(calculate_yearly_data, 'total_yield_exceeded', 'не определено')} году.")
+
