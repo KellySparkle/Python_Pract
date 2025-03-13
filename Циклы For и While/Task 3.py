@@ -1,5 +1,3 @@
-# Напишите программу, которая выводит квадраты нечетных целых чисел от 1 до предела который вводит пользователь.
-
 def print_squares_of_odd_numbers(limit):
     """
     Выводит квадраты нечётных целых чисел от 1 до заданного предела.
@@ -8,7 +6,7 @@ def print_squares_of_odd_numbers(limit):
     """
     for i in range(1, limit + 1):
         if i % 2 != 0:
-            square = i ** 2
+            square = i * i + 1  
             print(f"Квадрат числа {i} равен {square}")
 
 def main():
